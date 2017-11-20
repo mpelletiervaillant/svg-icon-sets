@@ -1,5 +1,5 @@
 html {
-  font-family: 'Overpass', sans-serif;
+  font-family: Overpass, sans-serif;
 }
 
 .icons {
@@ -12,13 +12,35 @@ p {
   color: #fff;
 }
 
-body {
-  height: 100vh;
-  background-color: #ff5e3a;
-  background-image: linear-gradient(to bottom, rgba(255, 149, 0, 1), rgba(255, 94, 58, 1));
+section {
+  background-color: #ff9500;
+  background-image: linear-gradient(to bottom, #ff9500, #ff5e3a);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
 }
 
 .btn-ghost {
-  border-color: #fff;
+  border-color: rgba(255, 255, 255, .5);
   color: #fff;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #ff5e3a;
+}
+
+.this {
+  border-bottom: 3px solid rgba(255, 255, 255, .5);
+}
+
+@media only screen and (min-width: 60em) {
+
+  .this {
+    border: none;
+  }
+
+  .test {
+    border-right: 3px solid rgba(255, 255, 255, .5);
+  }
 }
