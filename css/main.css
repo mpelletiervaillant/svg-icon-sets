@@ -17,3 +17,8 @@ body {
   background-color: #ff5e3a;
   background-image: linear-gradient(to bottom, rgba(255, 149, 0, 1), rgba(255, 94, 58, 1));
 }
+
+.btn-ghost {
+  border-color: #fff;
+  color: #fff;
+}
